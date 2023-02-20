@@ -1,6 +1,5 @@
 # Viral-Tweets-Prediction
-EDA for Viral Tweets, analyzing data sets to summarize their main characteristics
-
+This project is aimed at predicting the virality of tweets on the basis of various factors like the number of retweets, likes, hashtags used, sentiment analysis, etc. It is implemented in Python and uses various libraries like pandas, sklearn, matplotlib, etc.
 
 Problem Description:
 
@@ -26,3 +25,14 @@ Viral = 0.3333 * likes + shares
 Results:
 
 In conclusion, I reached an accuracy result of over 95 percent, this was possible thanks to the survey method and the experiments on the number of K. In addition, we reached an unequivocal conclusion that our data will not take into account such and such words (sometimes virality is unethical). Instead I did a detailed EDA and gave tips to the post writer for recommended words.
+
+Dataset:
+
+The dataset used in this project is provided in the 'viraltweets.csv'. It contains various attributes of tweets like the number of retweets, likes, hashtags used, sentiment analysis, etc. along with their respective virality scores.
+
+Usage
+To use this project, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Install the prerequisites mentioned above.
+3. Run the 'Viral-Tweets-Prediction.ipynb' file in your preferred Python environment.
